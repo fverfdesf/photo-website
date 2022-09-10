@@ -1,0 +1,21 @@
+nav {
+  background: $background;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+    li {
+      padding: 1rem 0.8rem;
+      a {
+        color: white;
+        letter-spacing: 0.1rem;
+        font-weight: 600;
+        transition: 0.3s;
+        &:hover {
+          color: rgb(226, 226, 226);
+        }
+      }
+    }
+  }
+}

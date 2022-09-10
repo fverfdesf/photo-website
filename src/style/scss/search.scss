@@ -1,0 +1,17 @@
+.search {
+  input {
+    padding: 0.2rem 0.5rem;
+    border: none;
+    color: $color_purple;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    padding: 0.2rem 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: $background2;
+    color: $color_white;
+  }
+}

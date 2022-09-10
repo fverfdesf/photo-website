@@ -1,0 +1,15 @@
+.search input {
+  padding: 0.2rem 0.5rem;
+  border: none;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search button {
+  padding: 0.2rem 0.5rem;
+  border: none;
+  border-left: 1px solid black;
+}
+/*# sourceMappingURL=search.css.map */
