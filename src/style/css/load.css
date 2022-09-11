@@ -1,70 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
-nav {
-  background: #b640e0;
-}
-
-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 1rem;
-}
-
-nav ul li {
-  padding: 1rem 0.8rem;
-}
-
-nav ul li a {
-  color: white;
-  letter-spacing: 0.1rem;
-  font-weight: 600;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-nav ul li a:hover {
-  color: #e2e2e2;
-}
-
-footer {
-  background: #8000ae;
-  color: white;
-  text-align: center;
-  padding: 0.5rem;
-}
-
-.search input {
-  padding: 0.2rem 0.5rem;
-  border: none;
-  color: #b640e0;
-}
-
-.search input:focus {
-  outline: none;
-}
-
-.search button {
-  padding: 0.2rem 0.5rem;
-  border: none;
-  cursor: pointer;
-  background-color: #8000ae;
-  color: white;
-}
-
 .load {
   position: absolute;
   top: 0;
@@ -222,4 +155,4 @@ footer {
             transform: rotate(90deg);
   }
 }
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=load.css.map */

@@ -1,0 +1,86 @@
+.load {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.148);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .load-block {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+    transform: rotate(45deg);
+    animation: dynimic 1s linear infinite;
+    position: relative;
+    span {
+      position: absolute;
+      width: 2.5rem;
+      height: 2.5rem;
+      animation: rotate 1s linear infinite;
+      &:nth-child(1) {
+        background: rgb(216, 159, 159);
+        top: 0;
+        left: 0;
+      }
+      &:nth-child(2) {
+        background: rgb(139, 188, 139);
+        top: 0;
+        right: 0;
+      }
+      &:nth-child(3) {
+        background: rgb(110, 110, 174);
+        bottom: 0;
+        left: 0;
+      }
+      &:nth-child(4) {
+        background: rgb(207, 189, 156);
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+@keyframes dynimic {
+  0% {
+    width: 5rem;
+    height: 5rem;
+  }
+  10% {
+    width: 5rem;
+    height: 5rem;
+  }
+  50% {
+    width: 7rem;
+    height: 7rem;
+  }
+  90% {
+    width: 5rem;
+    height: 5rem;
+  }
+  100% {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  90% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}

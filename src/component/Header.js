@@ -2,7 +2,7 @@ import React from "react";
 import Search from "../component/Search";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ searchPhoto }) => {
   return (
     <nav>
       <ul>
@@ -13,7 +13,7 @@ const Header = () => {
           <Link to={"/About"}>About</Link>
         </li>
         <li className="search">
-          <Search />
+          <Search searchPhoto={searchPhoto} />
         </li>
       </ul>
     </nav>
